@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #00ccff;
+}
+
+#gameContainer {
+    display: flex; /* Gebruik flexbox voor het uitlijnen van de elementen */
+    justify-content: center; /* Centreer de canvas en levensindicatoren horizontaal */
+    align-items: flex-start; /* Zorg ervoor dat ze aan de bovenkant beginnen */
+}
+
+canvas {
+    border: 2px solid black;
+    background-color: #ffffff;
+    display: block;
+    margin: 20px;
+}
+
+#scoreBoard {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#targetWord {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#lives {
+    display: flex;
+    flex-direction: column; /* Zorg ervoor dat de levens onder elkaar staan */
+    align-items: center; /* Centreer de levens */
+    margin-right: 20px; /* Ruimte tussen de levens en het canvas */
+}
+
+#lifeIndicators {
+    display: flex; /* Gebruik flexbox voor de levens */
+    flex-direction: column; /* Maak een verticale kolom */
+    align-items: center; /* Centreer de indicatoren */
+}
+
+.life {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    margin: 5px 0; /* Ruimte tussen de levens */
+}

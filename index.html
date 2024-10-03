@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schiet de Woorden Kapot!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Schiet de Woorden Kapot!</h1>
+
+    <div id="targetWord">
+        Klik op het woord: <span id="currentTargetWord"></span>
+    </div>
+
+    <div id="gameContainer">
+        <div id="lives">
+            <div id="lifeIndicators"></div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <div id="scoreBoard">
+        Score: <span id="score">0</span>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
